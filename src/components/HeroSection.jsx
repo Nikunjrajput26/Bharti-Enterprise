@@ -51,8 +51,9 @@ export default function HeroSection() {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 width: "100%",
-                height: "400px",
+                height: "60vh",
                 borderRadius: "12px",
+                backgroundRepeat: "no-repeat",
               }}
             >
               {/* Optional: Overlay text */}

@@ -67,7 +67,13 @@ body {
     background: #fff !important; /* optional: to avoid black bars */
   }
 
-  .swiper-button-prev, .swiper-button-next {
+  .swiper-button-prev,
+  .swiper-button-next {
     display: none !important;
-}
+  }
+
+  .mySwiper .swiper-slide > div {
+    background-size: contain !important;
+    height: 40vh !important;
+  }
 }
