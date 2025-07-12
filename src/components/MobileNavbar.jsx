@@ -168,7 +168,7 @@ return (
                 <ul
                     style={{
                         ...styles.mobileNavLinks,
-                        maxHeight: "100vh",
+                        maxHeight: "75vh",
                         overflowY: "auto",
                         paddingRight: "0.5rem",
                     }}
