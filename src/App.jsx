@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import MobileNavbar from "./components/MobileNavbar";
 import PartnerSection from "./components/PartnerSection";
+import Category from "./components/Category";
+import Footer from "./components/Footer";
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -21,6 +23,8 @@ function App() {
       {isMobile ? <MobileNavbar /> : <Navbar />}
       <Home />
       <PartnerSection />
+      <Category />
+      <Footer />
     </>
   );
 }

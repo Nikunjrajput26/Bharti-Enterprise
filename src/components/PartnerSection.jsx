@@ -13,9 +13,7 @@ export default function PartnerSection() {
   return (
     <>
       <InfoSection
-        title={PartnerSliderProps.title}
-        subtitle={PartnerSliderProps.subtitle}
-        description={PartnerSliderProps.description}
+      {...PartnerSliderProps}
       />
       <PartnerSlider />
     </>
