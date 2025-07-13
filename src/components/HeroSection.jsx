@@ -52,7 +52,6 @@ export default function HeroSection() {
                 backgroundPosition: "center",
                 width: "100%",
                 height: "60vh",
-                borderRadius: "12px",
                 backgroundRepeat: "no-repeat",
               }}
             >

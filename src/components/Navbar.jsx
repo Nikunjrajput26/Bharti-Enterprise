@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -130,10 +131,15 @@ const Navbar = () => {
       ],
     },
   ];
-  
+
   return (
     <nav style={styles.nav}>
-      <div style={styles.logo}>MyApp</div>
+      <div style={styles.logo}>
+        <img
+          src={logo}
+          style={{ height: "40px", width: "auto", verticalAlign: "middle" }}
+        />
+      </div>
       <ul style={styles.navLinks}>
         <li>
           <a href="/" style={styles.link}>
@@ -236,7 +242,7 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "1rem 2rem",
-    background: "#222",
+    background: "#dfd9d9",
     color: "#fff",
   },
   logo: {
@@ -252,7 +258,7 @@ const styles = {
     alignItems: "center",
   },
   link: {
-    color: "#fff",
+    color: "#040404",
     textDecoration: "none",
     fontSize: "1rem",
     position: "relative",
@@ -261,7 +267,7 @@ const styles = {
     position: "absolute",
     top: "2.2rem",
     left: 0,
-    background: "#333",
+    background: "#3c3c3c",
     borderRadius: "4px",
     boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
     listStyle: "none",
@@ -274,10 +280,10 @@ const styles = {
   },
   dropdownLink: {
     display: "block",
-    color: "#fff",
+    color: "#dfd9d9",
     textDecoration: "none",
-    padding: "0.5rem 1rem",
-    fontSize: "1rem",
+    paddingBottom: "0.5rem",
+    fontSize: "0.8rem",
     wordBreak: "break-word",
     whiteSpace: "normal",
     maxWidth: "180px",
