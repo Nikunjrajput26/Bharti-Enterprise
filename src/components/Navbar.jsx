@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/logo.png";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -132,6 +133,8 @@ const Navbar = () => {
     },
   ];
 
+  // Import an icon library (e.g., react-icons)
+
   return (
     <nav style={styles.nav}>
       <div style={styles.logo}>
@@ -154,10 +157,15 @@ const Navbar = () => {
         <li style={{ position: "relative" }}>
           <span
             ref={toggleRef}
-            style={{ ...styles.link, cursor: "pointer" }}
+            style={{ ...styles.link, cursor: "pointer", display: "flex", alignItems: "center", gap: "0.3rem" }}
             onClick={handleCategoryClick}
           >
-            Category ▼
+            Category{" "}
+            {showDropdown ? (
+              <FaChevronUp size={14} color="#3c3c3c" />
+            ) : (
+              <FaChevronDown size={14} color="#3c3c3c" />
+            )}
           </span>
           {showDropdown && (
             <div
@@ -258,9 +266,10 @@ const styles = {
     alignItems: "center",
   },
   link: {
-    color: "#040404",
+    color: "#3c3c3c",
     textDecoration: "none",
-    fontSize: "1rem",
+    fontSize: "0.8rem",
+    fontFamily: "'Roboto', sans-serif",
     position: "relative",
   },
   dropdown: {
@@ -277,6 +286,7 @@ const styles = {
     maxWidth: "900px",
     zIndex: 100,
     overflow: "auto",
+    fontFamily: "'Roboto', sans-serif",
   },
   dropdownLink: {
     display: "block",
@@ -287,6 +297,7 @@ const styles = {
     wordBreak: "break-word",
     whiteSpace: "normal",
     maxWidth: "180px",
+    fontFamily: "'Roboto', sans-serif",
   },
   searchInput: {
     padding: "0.5rem 1rem",
@@ -294,6 +305,7 @@ const styles = {
     border: "none",
     fontSize: "1rem",
     outline: "none",
+    fontFamily: "'Roboto', sans-serif",
   },
 };
 
