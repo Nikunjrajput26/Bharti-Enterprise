@@ -28,25 +28,10 @@ export default function MainHeader() {
 
   return (
     <div className="">
-      {/* <div className="absolute inset-0 -z-10 overflow-hidden ">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source
-            src="https://neccodelhi.com/wp-content/uploads/2023/02/necco_video_bg.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <div className="absolute inset-0 bg-black/50 "></div>
-      </div> */}
       <header className="inset-x-0 top-0 z-50 inset-0 bg-white ">
         <nav
           aria-label="Global"
-          className="flex items-center justify-between p-6 lg:p-5"
+          className="flex items-center justify-between m-8"
         >
           {/* Logo */}
           <div className="flex lg:flex-1">
