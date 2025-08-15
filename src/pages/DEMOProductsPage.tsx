@@ -25,6 +25,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { CarouselDApiDemo } from "@/components/productDetails/ProductImagesCarousel";
+import { Footer } from "@/components/footer/Footer";
 
 export default function DEMOProductsPage() {
   const categories = [
@@ -311,6 +312,7 @@ export default function DEMOProductsPage() {
             ))}
           </div>
         </div>
+        <Footer />
       </SidebarInset>
     </SidebarProvider>
   );

@@ -1,25 +1,36 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { Footer } from "./components/footer/Footer";
 import MainHeader from "./components/navbar/MainHeader";
 import HomePage from "./pages/HomePage";
 import DEMOProductsPage from "./pages/DEMOProductsPage";
 
+function AppContent() {
+  const location = useLocation();
+
+  // Check if path matches `/category/:categoryName/:productName`
+  const hideFooter = /^\/category\/[^/]+\/[^/]+$/.test(location.pathname);
+
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      <MainHeader />
+      <div className="mt-32"></div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/category/:categoryName/:productName"
+          element={<DEMOProductsPage />}
+        />
+        <Route path="/test" element={<DEMOProductsPage />} />
+      </Routes>
+      {!hideFooter && <Footer />}
+    </div>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen overflow-x-hidden">
-        <MainHeader />
-        <div className="mt-26"></div>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route
-            path="/category/:categoryName/:productName"
-            element={<DEMOProductsPage />}
-          />
-          <Route path="/test" element={<DEMOProductsPage />} />
-        </Routes>
-        <Footer />
-      </div>
+      <AppContent />
     </BrowserRouter>
   );
 }
