@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/footer/Footer";
 import MainHeader from "./components/navbar/MainHeader";
 import HomePage from "./pages/HomePage";
-import CategoryPage from "./pages/CategoryPage";
 import DEMOProductsPage from "./pages/DEMOProductsPage";
 
 function App() {
