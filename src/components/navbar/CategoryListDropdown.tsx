@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Link } from "react-router-dom";
 
 const subCategories = [
   {
@@ -104,7 +105,9 @@ const subCategories = [
   },
 ];
 
-export function CategoryListDropdown() {
+export function CategoryListDropdown(
+  setMobileMenuOpen: (open: boolean) => void
+) {
   return (
     <>
       <Accordion type="single" collapsible>
@@ -120,7 +123,16 @@ export function CategoryListDropdown() {
                   <AccordionContent className="flex flex-col gap-4 text-balance">
                     <ul className="pl-5 text-xs/5 text-gray-500">
                       {subCategory.products.map((product) => (
-                        <li key={product}>{product}</li>
+                        <Link
+                          to={`/category/${subCategory.name
+                            .toLowerCase()
+                            .replace(/\s+/g, "-")}/${product
+                            .toLowerCase()
+                            .replace(/\s+/g, "-")}`}
+                          onClick={() => setMobileMenuOpen(false)}
+                        >
+                          <li key={product}>{product}</li>
+                        </Link>
                       ))}
                     </ul>
                   </AccordionContent>

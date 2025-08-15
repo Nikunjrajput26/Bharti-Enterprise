@@ -22,7 +22,7 @@ const infoCards: InfoCardProps[] = [
 ];
 
 const InfoCard: React.FC<InfoCardProps> = ({ title, text }) => (
-  <div className="bg-[#E41C23] text-white w-[400px] h-[100px] p-3 rounded-3xl shadow-lg flex">
+  <div className="bg-[#E41C23] text-white w-[350px] md:[400px] h-[100px] p-3 rounded-3xl shadow-lg flex">
     <div className="bg-white w-[100px] p-4 me-4 border-2 rounded-xl"></div>
     <div>
       <h3 className="font-bold">{title}</h3>
@@ -61,7 +61,7 @@ const ActivitySection: React.FC = () => {
       {/* Right Side */}
       <div className="flex flex-col justify-center items-center space-y-4">
         {infoCards.map((card, idx) => (
-          <InfoCard key={idx} title={card.title} text={card.text} />
+          <InfoCard key={idx} title={card.title} text={card.text}  />
         ))}
       </div>
     </div>

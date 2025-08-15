@@ -15,18 +15,18 @@ const ProductCategories: React.FC = () => {
 
   return (
     <section
-      className="bg-[#E41C23] rounded-4xl p-6 md:p-10 m-4 md:m-8"
+      className="bg-[#f0ecf4] rounded-4xl p-6 md:p-10 m-4 md:m-8"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
       {/* Top Section */}
       <div className="text-center max-w-3xl mx-auto mb-10">
         <h2
-          className="text-2xl md:text-4xl text-white mb-4"
+          className="text-2xl md:text-4xl text-gray-800 mb-4"
           style={{ fontFamily: "Oswald, sans-serif", fontWeight: 600 }}
         >
           Our Product Categories
         </h2>
-        <p className="text-gray-200 text-sm md:text-base">
+        <p className="text-gray-800 text-sm md:text-base">
           Explore our wide range of industrial products designed to deliver high
           performance, durability, and efficiency for your business needs.
         </p>
@@ -37,9 +37,9 @@ const ProductCategories: React.FC = () => {
         {categories.map((cat, index) => (
           <div
             key={index}
-            className="group cursor-pointer bg-white rounded-xl py-4 shadow-md overflow-hidden transform transition duration-300 hover:shadow-lg hover:-translate-y-1"
+            className="group cursor-pointer  bg-[#E41C23] rounded-xl py-4 shadow-md overflow-hidden transform transition duration-300 hover:shadow-lg hover:-translate-y-1"
           >
-            <div className="overflow-hidden flex items-center justify-center bg-gray-100">
+            <div className="overflow-hidden flex items-center justify-center">
               <img
                 src={cat.img}
                 alt={cat.name}
@@ -48,7 +48,7 @@ const ProductCategories: React.FC = () => {
             </div>
             <div className="p-4 text-center">
               <h3
-                className="text-lg font-semibold text-gray-800"
+                className="text-lg font-semibold text-white"
                 style={{ fontFamily: "Oswald, sans-serif" }}
               >
                 {cat.name}
@@ -60,7 +60,7 @@ const ProductCategories: React.FC = () => {
 
       {/* Bottom Section */}
       <div className="text-center mt-10">
-        <p className="text-gray-200 text-sm md:text-base">
+        <p className="text-gray-800 text-sm md:text-base">
           All our products are tested for quality and designed to meet the
           highest industrial standards. We ensure reliability you can trust.
         </p>
