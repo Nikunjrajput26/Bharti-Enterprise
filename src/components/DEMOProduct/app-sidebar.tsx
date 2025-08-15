@@ -82,7 +82,7 @@ export function AppSidebar({
 
   return (
     <Sidebar
-      className={`mt-24 transition-all duration-300 shadow-2xl ${
+      className={`mt-24 transition-all duration-300 bg-amber-400 shadow-2xl ${
         isCollapsed ? "w-16" : "w-64"
       }`}
       {...props}
