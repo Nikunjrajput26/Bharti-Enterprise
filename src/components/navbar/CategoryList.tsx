@@ -115,7 +115,10 @@ export default function CategoryList({ onLinkClick }: CategoryListProps) {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-4 lg:gap-y-16">
             {subCategories.map((subCategory) => (
               <div key={subCategory.name} className="relative">
-                <p className="text-sm/6 font-semibold text-gray-900">
+                <p
+                  className="text-sm/6 font-semibold text-gray-800"
+                  style={{ fontFamily: "Oswald, sans-serif" }}
+                >
                   <Link
                     to={`/category/${subCategory.name
                       .toLowerCase()
@@ -131,6 +134,7 @@ export default function CategoryList({ onLinkClick }: CategoryListProps) {
                   <p
                     key={product}
                     className="mt-1 text-xs/5 text-gray-500 hover:text-[#E03131] transition-colors"
+                    style={{ fontFamily: "Inter, sans-serif" }}
                   >
                     <Link
                       to={`/category/${subCategory.name

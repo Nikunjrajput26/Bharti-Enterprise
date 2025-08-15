@@ -29,10 +29,48 @@ const CategoryPage: React.FC = () => {
       title: "PVC Insulated Building Wire (H07V-R) -6491X",
       img: heroImage,
     },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
+    {
+      id: 4,
+      title: "PVC Insulated Building Wire (H07V-R) -6491X",
+      img: heroImage,
+    },
   ];
 
   return (
-    <div className="bg-[#f0ecf4] min-h-screen p-4 md:p-6">
+    <div
+      className="bg-[#f0ecf4] min-h-screen p-4 md:p-6"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
       {/* Top Heading + Toggle Button */}
       <div className="mb-6 flex justify-between items-center">
         <h1
@@ -68,7 +106,12 @@ const CategoryPage: React.FC = () => {
 
             {/* Categories */}
             <div className="mb-6">
-              <h3 className="font-semibold mb-2">Categories</h3>
+              <h3
+                className="font-semibold text-xl mb-2 pt-4"
+                style={{ fontFamily: "Oswald, sans-serif" }}
+              >
+                Categories
+              </h3>
               {[
                 "Cable",
                 "HOUSE WIRE",
@@ -91,20 +134,31 @@ const CategoryPage: React.FC = () => {
                 "SOLAR CABLE",
                 "AWM CABLE",
               ].map((category, i) => (
-                <label key={i} className="flex items-center space-x-2">
+                <label
+                  key={i}
+                  className="flex items-center space-x-2 cursor-pointer hover:text-[#E03131]"
+                >
                   <input type="checkbox" />
-                  <span>{category}</span>
+                  <span className="text-sm mb-1 uppercase">{category}</span>
                 </label>
               ))}
             </div>
 
             {/* Brands */}
             <div className="mb-6">
-              <h3 className="font-semibold mb-2">Brands</h3>
+              <h3
+                className="font-semibold text-xl mb-2 pt-4"
+                style={{ fontFamily: "Oswald, sans-serif" }}
+              >
+                Brands
+              </h3>
               {["Apar", "Havells", "Molex", "RR Kabel"].map((brand, i) => (
-                <label key={i} className="flex items-center space-x-2">
+                <label
+                  key={i}
+                  className="flex items-center space-x-2 cursor-pointer hover:text-[#E03131]"
+                >
                   <input type="checkbox" />
-                  <span>{brand}</span>
+                  <span className="text-sm mb-1 uppercase">{brand}</span>
                 </label>
               ))}
             </div>
@@ -131,10 +185,18 @@ const CategoryPage: React.FC = () => {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-sm font-medium mb-2">{p.title}</h3>
+                  <h3
+                    className="text-sm font-medium mb-2"
+                    style={{ fontFamily: "Oswald, sans-serif" }}
+                  >
+                    {p.title}
+                  </h3>
                 </div>
                 <div className="px-4 py-2 border-t text-center">
-                  <button className="text-blue-600 text-sm hover:underline">
+                  <button
+                    className="text-blue-600 text-sm hover:underline"
+                    style={{ fontFamily: "Inter, sans-serif" }}
+                  >
                     Quicklook
                   </button>
                 </div>

@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import type { Dispatch, SetStateAction } from "react";
 import { Link } from "react-router-dom";
 
 const subCategories = [
@@ -105,9 +106,13 @@ const subCategories = [
   },
 ];
 
-export function CategoryListDropdown(
-  setMobileMenuOpen: (open: boolean) => void
-) {
+interface CategoryListDropdownProps {
+  setMobileMenuOpen: Dispatch<SetStateAction<boolean>>;
+}
+
+export function CategoryListDropdown({
+  setMobileMenuOpen,
+}: CategoryListDropdownProps) {
   return (
     <>
       <Accordion type="single" collapsible>

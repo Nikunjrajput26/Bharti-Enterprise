@@ -27,7 +27,10 @@ export default function MainHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="">
+    <div
+      className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm"
+      style={{ fontFamily: "Oswald, sans-serif" }}
+    >
       <header className="inset-x-0 top-0 z-50 inset-0 bg-white ">
         <nav
           aria-label="Global"
@@ -153,7 +156,7 @@ export default function MainHeader() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {/* Dropdown with categories & subcategories */}
-                  <CategoryListDropdown />
+                  <CategoryListDropdown setMobileMenuOpen={setMobileMenuOpen} />
                   {navigation.map((item) => (
                     <Link
                       key={item.name}
