@@ -42,7 +42,7 @@ export default function DEMOProductsPage() {
   >({});
 
   return (
-    <SidebarProvider>
+    <SidebarProvider style={{ fontFamily: "Inter, sans-serif" }}>
       <AppSidebar
         selectedFilters={selectedFilters}
         setSelectedFilters={setSelectedFilters}
@@ -93,10 +93,13 @@ export default function DEMOProductsPage() {
 
                 <DialogContent className="w-[100vw] md:w-[90vw] h-[80vh] md:h-[90vh] flex flex-col md:p-6 sm:p-8">
                   <DialogHeader>
-                    <DialogTitle className="text-xl sm:text-2xl font-semibold">
+                    <DialogTitle
+                      className="text-xl sm:text-2xl font-semibold"
+                      style={{ fontFamily: "Oswald, sans-serif" }}
+                    >
                       RR Kabel UL 2586 Cable Details
                     </DialogTitle>
-                    <DialogDescription className="text-sm sm:text-base">
+                    <DialogDescription className="text-sm sm:text-sm">
                       Industrial-grade cables for precision machinery and
                       control systems.
                     </DialogDescription>
@@ -118,8 +121,13 @@ export default function DEMOProductsPage() {
                     <div className="space-y-6">
                       {/* Application */}
                       <section>
-                        <h3 className="text-lg font-semibold">Application</h3>
-                        <p className="text-sm sm:text-base text-muted-foreground">
+                        <h3
+                          className="text-lg font-semibold"
+                          style={{ fontFamily: "Oswald, sans-serif" }}
+                        >
+                          Application
+                        </h3>
+                        <p className="text-xl sm:text-sm leading-5 text-muted-foreground">
                           This cable is used for grinding machines, CNC, machine
                           tools, control systems, assembly lines, machining
                           centers, bottling equipment, data processing
@@ -130,10 +138,13 @@ export default function DEMOProductsPage() {
 
                       {/* Technical Data */}
                       <section>
-                        <h3 className="text-lg font-semibold">
+                        <h3
+                          className="text-lg font-semibold"
+                          style={{ fontFamily: "Oswald, sans-serif" }}
+                        >
                           Technical Data
                         </h3>
-                        <ul className="list-disc list-inside text-sm sm:text-base text-muted-foreground space-y-1">
+                        <ul className="list-disc list-inside text-sm sm:text-sm text-muted-foreground space-y-1">
                           <li>Standard: UL-758 UL 2586</li>
                           <li>Nominal Voltage: 1000 Vac</li>
                           <li>Temperature Range: -30ºC to +150 ºC</li>
@@ -144,10 +155,13 @@ export default function DEMOProductsPage() {
 
                       {/* Cable Construction */}
                       <section>
-                        <h3 className="text-lg font-semibold">
+                        <h3
+                          className="text-lg font-semibold"
+                          style={{ fontFamily: "Oswald, sans-serif" }}
+                        >
                           Cable Construction
                         </h3>
-                        <ul className="list-disc list-inside text-sm sm:text-base text-muted-foreground space-y-1">
+                        <ul className="list-disc list-inside text-sm sm:text-sm text-muted-foreground space-y-1">
                           <li>
                             Annealed plain copper, fine wire conductor AWG
                             24–16, Table 30.3 UL 1581 ASTM-B.
@@ -173,8 +187,13 @@ export default function DEMOProductsPage() {
 
                       {/* Properties */}
                       <section>
-                        <h3 className="text-lg font-semibold">Properties</h3>
-                        <ul className="list-disc list-inside text-sm sm:text-base text-muted-foreground space-y-1">
+                        <h3
+                          className="text-lg font-semibold"
+                          style={{ fontFamily: "Oswald, sans-serif" }}
+                        >
+                          Properties
+                        </h3>
+                        <ul className="list-disc list-inside text-sm sm:text-sm text-muted-foreground space-y-1">
                           <li>
                             PVC self-extinguishing and flame retardant (test
                             method FT 1, FT 2).
@@ -191,23 +210,38 @@ export default function DEMOProductsPage() {
 
                       {/* Extra Demo Data */}
                       <section>
-                        <h3 className="text-lg font-semibold">
+                        <h3
+                          className="text-lg font-semibold"
+                          style={{ fontFamily: "Oswald, sans-serif" }}
+                        >
                           Available Variants (Sample)
                         </h3>
                         <div className="overflow-x-auto">
-                          <table className="w-full border-collapse border border-gray-300 text-sm sm:text-base">
+                          <table className="w-full border-collapse border border-gray-300 text-sm sm:text-sm">
                             <thead className="bg-gray-100">
                               <tr>
-                                <th className="border border-gray-300 p-2 text-left">
+                                <th
+                                  className="border border-gray-300 p-2 text-left"
+                                  style={{ fontFamily: "Oswald, sans-serif" }}
+                                >
                                   Variant
                                 </th>
-                                <th className="border border-gray-300 p-2 text-left">
+                                <th
+                                  className="border border-gray-300 p-2 text-left"
+                                  style={{ fontFamily: "Oswald, sans-serif" }}
+                                >
                                   Conductor Size
                                 </th>
-                                <th className="border border-gray-300 p-2 text-left">
+                                <th
+                                  className="border border-gray-300 p-2 text-left"
+                                  style={{ fontFamily: "Oswald, sans-serif" }}
+                                >
                                   Outer Diameter
                                 </th>
-                                <th className="border border-gray-300 p-2 text-left">
+                                <th
+                                  className="border border-gray-300 p-2 text-left"
+                                  style={{ fontFamily: "Oswald, sans-serif" }}
+                                >
                                   Colour
                                 </th>
                               </tr>
