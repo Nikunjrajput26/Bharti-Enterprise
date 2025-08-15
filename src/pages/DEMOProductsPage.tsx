@@ -29,14 +29,14 @@ import { Footer } from "@/components/footer/Footer";
 
 export default function DEMOProductsPage() {
   const categories = [
-    { name: "Industrial Fans", img: cableImg },
-    { name: "Air Coolers", img: cableImg },
-    { name: "HVAC Systems", img: cableImg },
-    { name: "Exhaust Systems", img: cableImg },
-    { name: "Exhaust Systems", img: cableImg },
-    { name: "Exhaust Systems", img: cableImg },
-    { name: "Exhaust Systems", img: cableImg },
-    { name: "Exhaust Systems", img: cableImg },
+    { name: "Single Core Cable", img: cableImg },
+    { name: "Multi Core Cable", img: cableImg },
+    { name: "Flexible Wire", img: cableImg },
+    { name: "Coaxial Cable", img: cableImg },
+    { name: "PVC Insulated Wire", img: cableImg },
+    { name: "Armoured Cable", img: cableImg },
+    { name: "Heat Resistant Cable", img: cableImg },
+    { name: "Earth Wire", img: cableImg },
   ];
   const [selectedFilters, setSelectedFilters] = useState<
     Record<string, string[]>
@@ -98,7 +98,7 @@ export default function DEMOProductsPage() {
                       className="text-xl sm:text-2xl font-semibold"
                       style={{ fontFamily: "Oswald, sans-serif" }}
                     >
-                      RR Kabel UL 2586 Cable Details
+                      {cat.name}
                     </DialogTitle>
                     <DialogDescription className="text-sm sm:text-sm">
                       Industrial-grade cables for precision machinery and
