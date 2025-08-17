@@ -12,7 +12,6 @@ const HeroSection = () => {
       className="bg-[#f0ecf4] rounded-4xl grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-8 m-4 md:m-8 h-auto"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
-      {/* Left Side */}
       <div className="flex flex-col justify-center items-start space-y-4">
         <div className="py-6 space-y-3">
           <h1
@@ -35,7 +34,6 @@ const HeroSection = () => {
           Lorem, ipsum.
         </button>
 
-        {/* Stats */}
         <div className="flex flex-wrap gap-4 my-4">
           {stats.map((stat, idx) => (
             <div

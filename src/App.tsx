@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import DEMOProductsPage from "./pages/DEMOProductsPage";
 import AboutUs from "./pages/AboutUs";
 import ImageGalleryPage from "./pages/ImageGalleryPage";
+import ContactPage from "./pages/ContactPage";
 
 function AppContent() {
   const location = useLocation();
@@ -24,6 +25,7 @@ function AppContent() {
         <Route path="/test" element={<DEMOProductsPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/gallery" element={<ImageGalleryPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       {!hideFooter && <Footer />}
     </div>
