@@ -1,18 +1,4 @@
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaInstagram,
-  FaBolt,
-  FaTools,
-  FaUsers,
-  FaShieldAlt,
-  FaTruck,
-  FaHandshake,
-  FaPhone,
-  FaMailBulk,
-  FaLocationArrow,
-} from "react-icons/fa";
+import { FaPhone, FaLocationArrow } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 export default function ContactPage() {
