@@ -4,17 +4,16 @@ import { IoMail } from "react-icons/io5";
 export default function ContactPage() {
   return (
     <div className=" min-h-screen">
-      <div className="mt-12 w-full">
+      <ContactCards />
+      <div className="max-w-[85%] mx-auto px-6 md:px-12">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6133454225696!2d72.82192747497942!3d21.167780382989754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fccff692073%3A0xcb14490ed89d0831!2sBharti%20Enterprise!5e0!3m2!1sen!2sin!4v1755430953335!5m2!1sen!2sin"
-          className="w-full h-80 md:h-90"
-          style={{ border: 0 }}
+          className="w-full h-80 md:h-90 rounded-2xl shadow-2xl"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
-      <ContactCards />
     </div>
   );
 }
@@ -42,7 +41,7 @@ const ContactCards: React.FC = () => {
 
   return (
     <section className="bg-white py-16 px-6 md:px-12">
-      <div className="max-w-6xl mx-auto text-center mb-12">
+      <div className="max-w-[85%] mx-auto text-center mb-12">
         <h2
           className="text-4xl font-bold text-gray-900"
           style={{ fontFamily: "Oswald, sans-serif", fontWeight: 600 }}
@@ -58,11 +57,11 @@ const ContactCards: React.FC = () => {
       </div>
 
       {/* Grid */}
-      <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto ">
+      <div className="max-w-[85%] grid md:grid-cols-3 gap-6 mx-auto">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="rounded-2xl p-6 shadow-md transition-transform cursor-pointer bg-[#E41C23] text-white"
+            className="rounded-2xl p-6 shadow-md bg-[#E41C23] text-white  transform transition duration-300 hover:shadow-lg hover:-translate-y-1"
           >
             <div className="mb-4 w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#E41C23]">
               {feature.icon}

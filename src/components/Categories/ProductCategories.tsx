@@ -18,7 +18,6 @@ const ProductCategories: React.FC = () => {
       className="bg-[#f0ecf4] rounded-4xl p-6 md:p-10 m-4 md:m-8"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
-      {/* Top Section */}
       <div className="text-center max-w-3xl mx-auto mb-10">
         <h2
           className="text-2xl md:text-4xl text-gray-800 mb-4"
@@ -32,7 +31,6 @@ const ProductCategories: React.FC = () => {
         </p>
       </div>
 
-      {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {categories.map((cat, index) => (
           <div
@@ -58,7 +56,6 @@ const ProductCategories: React.FC = () => {
         ))}
       </div>
 
-      {/* Bottom Section */}
       <div className="text-center mt-10">
         <p className="text-gray-800 text-sm md:text-base">
           All our products are tested for quality and designed to meet the
