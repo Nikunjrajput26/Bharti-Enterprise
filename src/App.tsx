@@ -3,6 +3,7 @@ import { Footer } from "./components/footer/Footer";
 import MainHeader from "./components/navbar/MainHeader";
 import HomePage from "./pages/HomePage";
 import DEMOProductsPage from "./pages/DEMOProductsPage";
+import AboutUs from "./pages/AboutUs";
 
 function AppContent() {
   const location = useLocation();
@@ -21,6 +22,7 @@ function AppContent() {
           element={<DEMOProductsPage />}
         />
         <Route path="/test" element={<DEMOProductsPage />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
       {!hideFooter && <Footer />}
     </div>
