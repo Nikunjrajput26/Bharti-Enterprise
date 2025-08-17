@@ -13,14 +13,15 @@ export function Footer() {
       style={{ fontFamily: "Inter, sans-serif" }}
     >
       <div className="max-w-7xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-4">
-        {/* Company Info */}
         <div>
           <img src={bharatiLogo} alt="Bharati Logo" className="w-[150px]" />
         </div>
 
-        {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold text-[#E41C23] mb-3">
+          <h3
+            style={{ fontFamily: "Oswald, sans-serif", fontWeight: 600 }}
+            className="text-lg font-semibold text-[#E41C23] mb-3"
+          >
             Quick Links
           </h3>
           <ul className="space-y-2 text-sm">
@@ -47,9 +48,13 @@ export function Footer() {
           </ul>
         </div>
 
-        {/* Support */}
         <div>
-          <h3 className="text-lg font-semibold text-[#E41C23] mb-3">Support</h3>
+          <h3
+            style={{ fontFamily: "Oswald, sans-serif", fontWeight: 600 }}
+            className="text-lg font-semibold text-[#E41C23] mb-3"
+          >
+            Support
+          </h3>
           <ul className="space-y-2 text-sm">
             <li>
               <a href="/faq" className="hover:text-[#E41C23]">
@@ -74,9 +79,11 @@ export function Footer() {
           </ul>
         </div>
 
-        {/* Social Media */}
         <div>
-          <h3 className="text-lg font-semibold text-[#E41C23] mb-3">
+          <h3
+            style={{ fontFamily: "Oswald, sans-serif", fontWeight: 600 }}
+            className="text-lg font-semibold text-[#E41C23] mb-3"
+          >
             Follow Us
           </h3>
           <div className="flex space-x-4">
@@ -96,7 +103,6 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="border-t border-gray-700 py-4 text-center text-sm">
         © {new Date().getFullYear()} Bharati Enterprise. All rights reserved.
       </div>

@@ -2,7 +2,6 @@ import ActivitySection from "@/components/activitySection/ActivitySection";
 import ProductCategories from "@/components/Categories/ProductCategories";
 import HeroSection from "@/components/heroSection/HeroSection";
 import Partners from "@/components/partner/Partners";
-import React from "react";
 
 const HomePage = () => {
   return (

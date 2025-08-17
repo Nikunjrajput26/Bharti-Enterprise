@@ -4,11 +4,11 @@ import MainHeader from "./components/navbar/MainHeader";
 import HomePage from "./pages/HomePage";
 import DEMOProductsPage from "./pages/DEMOProductsPage";
 import AboutUs from "./pages/AboutUs";
+import ImageGalleryPage from "./pages/ImageGalleryPage";
 
 function AppContent() {
   const location = useLocation();
 
-  // Check if path matches `/category/:categoryName/:productName`
   const hideFooter = /^\/category\/[^/]+\/[^/]+$/.test(location.pathname);
 
   return (
@@ -23,6 +23,7 @@ function AppContent() {
         />
         <Route path="/test" element={<DEMOProductsPage />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/gallery" element={<ImageGalleryPage />} />
       </Routes>
       {!hideFooter && <Footer />}
     </div>
