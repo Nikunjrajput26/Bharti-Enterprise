@@ -11,7 +11,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { Category } from "./Category";
 import { CategoryListDropdown } from "./CategoryListDropdown";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import bharatiLogo from "../../assets/bharati_logo.jpg";
 
 const navigation = [
@@ -25,6 +25,7 @@ const navigation = [
 
 export default function MainHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation(); // get current route
 
   return (
     <div
@@ -76,20 +77,24 @@ export default function MainHeader() {
             </div>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden lg:flex">
             <Category />
-            {navigation.map((item) => (
-              <Link to={item.href}>
-                <Button
-                  key={item.name}
-                  variant="ghost"
-                  className="outline-0 gap-0 text-gray-800 cursor-pointer"
-                >
-                  {item.name}
-                </Button>
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const isActive = location.pathname === item.href;
+              return (
+                <Link to={item.href} key={item.name}>
+                  <Button
+                    variant="ghost"
+                    className={`outline-0 gap-0 cursor-pointer 
+                      ${
+                        isActive ? "bg-[#E41C23] text-white" : "text-gray-800"
+                      }`}
+                  >
+                    {item.name}
+                  </Button>
+                </Link>
+              );
+            })}
           </div>
 
           {/* Right Icons */}
@@ -122,7 +127,7 @@ export default function MainHeader() {
                 <span className="sr-only">Bharti sales</span>
                 <img
                   alt="Bharti sales Logo"
-                  src="https://www.tirupatisales.com/site/images/Tirupati-Sales-Logo.webp"
+                  src={bharatiLogo}
                   className="h-9 w-auto"
                 />
               </Link>
@@ -157,16 +162,24 @@ export default function MainHeader() {
                 <div className="space-y-2 py-6">
                   {/* Dropdown with categories & subcategories */}
                   <CategoryListDropdown setMobileMenuOpen={setMobileMenuOpen} />
-                  {navigation.map((item) => (
-                    <Link
-                      key={item.name}
-                      to={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-700 hover:text-black hover:bg-gray-50 hover:border hover:border-[#E03131]"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
+                  {navigation.map((item) => {
+                    const isActive = location.pathname === item.href;
+                    return (
+                      <Link
+                        key={item.name}
+                        to={item.href}
+                        className={`-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold 
+                          ${
+                            isActive
+                              ? "bg-[#E41C23] text-white"
+                              : "text-gray-700 hover:text-black hover:bg-gray-50"
+                          }`}
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        {item.name}
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </div>
