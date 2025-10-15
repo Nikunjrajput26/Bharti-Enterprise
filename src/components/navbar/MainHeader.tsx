@@ -44,7 +44,7 @@ export default function MainHeader() {
               <img
                 alt="Bharti sales Logo"
                 src={bharatiLogo}
-                className="h-9 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
           </div>

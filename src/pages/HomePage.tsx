@@ -7,9 +7,9 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
+      <Partners />
       <ActivitySection />
       <ProductCategories />
-      <Partners />
     </>
   );
 };

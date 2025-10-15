@@ -6,6 +6,7 @@ import DEMOProductsPage from "./pages/DEMOProductsPage";
 import AboutUs from "./pages/AboutUs";
 import ImageGalleryPage from "./pages/ImageGalleryPage";
 import ContactPage from "./pages/ContactPage";
+import productsData from "./data/data.json";
 
 function AppContent() {
   const location = useLocation();
@@ -19,10 +20,13 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route
-          path="/category/:categoryName/:productName"
-          element={<DEMOProductsPage />}
+          path="/category/:parentCategoryName/:categoryName"
+          element={<DEMOProductsPage catalog={productsData} />}
         />
-        <Route path="/test" element={<DEMOProductsPage />} />
+        <Route
+          path="/test"
+          element={<DEMOProductsPage catalog={productsData} />}
+        />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/gallery" element={<ImageGalleryPage />} />
         <Route path="/contact" element={<ContactPage />} />

@@ -1,0 +1,895 @@
+[
+  {
+    "parent_category": "Cables & Wires",
+    "category": "Flexible Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "UL 1015",
+        "page_url": "https://www.rrkabel.com/products/ul-1015/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-15-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-15-3.svg",
+        "title": "RR Kabel UL 1015 Flexible Cable",
+        "description": "UL 1015 cables are designed for internal wiring of panels and electrical equipment, offering superior flexibility and flame-retardant performance for control and instrumentation systems.",
+        "application": "Used for internal wiring of panels and electrical equipment, as well as for connection wires in machines, flexible pipes, and transformers.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "6kV (AWG 18–16), 7.5kV (≥AWG 8)",
+          "Temperature Range": "Flexing -5°C to +105°C, Fixed installation -20°C to +105°C",
+          "Temperature at Conductor": "Max. +105°C",
+          "Bending Radius": "Flexing 10× cable Ø, Fixed installation 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation according to UL–Std. 1581, Class 43 Tab. 50.182.",
+          "Properties": "Heat and damp resistant PVC."
+        },
+        "properties": [
+          "Conditionally resistant to oils, solvents, acids and dyes.",
+          "PVC self–extinguishing and flame retardant (UL VW-1 and CSA FT1/FT2)."
+        ]
+      },
+      {
+        "product_name": "UL 1007",
+        "page_url": "https://www.rrkabel.com/products/ul-1007/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-17-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-17-3.svg",
+        "title": "RR Kabel UL 1007 Flexible Cable",
+        "description": "RR Kabel UL 1007 cables provide reliable internal wiring solutions for switchboards and electronic equipment, offering flexibility, flame retardance, and chemical resistance.",
+        "application": "Used for internal wiring of switchboards, electronic, and electrical equipment.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "2kV",
+          "Temperature Range": "Flexible -5°C to +80°C, Fixed installation -20°C to +80°C",
+          "Bending Radius": "Flexing 10× cable Ø, Fixed installation 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation per UL–Std. 1581, Class 43 Tab. 50.182.",
+          "Properties": "Heat and damp resistant PVC."
+        },
+        "properties": [
+          "Oil, acid, and solvent resistant.",
+          "PVC self–extinguishing and flame retardant per UL VW-1 and CSA FT1/FT2."
+        ]
+      },
+      {
+        "product_name": "UL 1011",
+        "page_url": "https://www.rrkabel.com/products/ul-1011/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-18-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-18-3.svg",
+        "title": "RR Kabel UL 1011 Flexible Cable",
+        "description": "UL 1011 cables are flexible, heat-resistant, and flame-retardant, designed for internal wiring of electrical and electronic control equipment.",
+        "application": "Ideal for internal wiring of switchboards, electronic and electrical equipment, household devices, and control desks.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "2kV",
+          "Temperature Range": "Flexible -5°C to +105°C, Fixed installation -20°C to +105°C",
+          "Bending Radius": "Flexing 10× cable Ø, Fixed installation 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation per UL–Std. 1581, Class 43 Tab. 50.182.",
+          "Properties": "Heat and damp resistant PVC."
+        },
+        "properties": [
+          "Conditionally resistant to oils, solvents, acids, and dyes.",
+          "PVC self–extinguishing and flame retardant (UL VW-1 and CSA FT1/FT2)."
+        ]
+      },
+      {
+        "product_name": "UL 1275",
+        "page_url": "https://www.rrkabel.com/products/ul-1275/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-19-2.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-19-2.svg",
+        "title": "RR Kabel UL 1275 Flexible Cable",
+        "description": "UL 1275 heavy-wall PVC-insulated cables are ideal for internal wiring of refrigeration and electrical equipment, providing durability and flame-retardant performance.",
+        "application": "Used for internal wiring on refrigeration equipment and as hook-up wire in electrical systems.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "6kV (AWG 18–16), 7.5kV (≥AWG 8)",
+          "Temperature Range": "-20°C to +105°C",
+          "Bending Radius": "5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation Type TW, QMTT2 heat and damp resistant."
+        },
+        "properties": [
+          "Conditionally resistant to oils.",
+          "PVC self–extinguishing and flame retardant (UL VW-1, CSA FT1/FT2)."
+        ]
+      },
+      {
+        "product_name": "UL 2587",
+        "page_url": "https://www.rrkabel.com/products/ul-2587/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-20-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-20-1.svg",
+        "title": "RR Kabel UL 2587 Flexible Cable",
+        "description": "RR Kabel UL 2587 cables are designed for industrial automation, machine tools, and control panels, providing high flexibility, mechanical durability, and flame retardance.",
+        "application": "Used in machine tools, control systems, connection between control panels and machinery, and industrial automation systems.",
+        "specs": {
+          "Standard": "UL–Std. 758; UL AWM Style 2587",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "3000V",
+          "Temperature Range": "Flexing -5°C to +90°C, Fixed installation -20°C to +90°C",
+          "Bending Radius": "Approx. 7.5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Bare copper fine wire, 0.5–35 sq. mm (AWG equivalent).",
+          "Insulation": "Special PVC insulation per UL 1581 Class 43.",
+          "Sheath": "Special PVC outer sheath, color grey (RAL 7001)."
+        },
+        "properties": [
+          "Resistant to oil, moisture, and coolant.",
+          "Easy stripping due to adequate talc coating."
+        ]
+      },
+      {
+        "product_name": "UL 2464",
+        "page_url": "https://www.rrkabel.com/products/ul-2464/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-21-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-21-1.svg",
+        "title": "RR Kabel UL 2464 Flexible Cable",
+        "description": "UL 2464 control cables are engineered for data transmission and control in industrial plants and automation systems, offering reliability and mechanical robustness.",
+        "application": "Used as command, measuring, and control cable in conveyor systems, air conditioning, and production lines.",
+        "specs": {
+          "Standard": "UL–Std. 758; UL Style 2464",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "1500V",
+          "Breakdown Voltage": "3000V",
+          "Temperature Range": "Flexible -10°C to +80°C, Fixed installation -20°C to +80°C",
+          "Bending Radius": "Approx. 15× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain copper, fine wire AWG 24–16.",
+          "Insulation": "PVC per UL–Std. 1581, Table 50.182 and 50.183.",
+          "Sheath": "Special PVC outer jacket class 43, black or grey."
+        },
+        "properties": ["PVC self–extinguishing and flame retardant VW-1, FT1."]
+      },
+      {
+        "product_name": "UL 2576 / 2598",
+        "page_url": "https://www.rrkabel.com/products/ul-2576-2598/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-22-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-22-1.svg",
+        "title": "RR Kabel UL 2576 / 2598 Flexible Cable",
+        "description": "RR Kabel UL 2576/2598 cables are designed for intercoms, telephones, public address systems, and medical equipment, combining flexibility with flame retardance.",
+        "application": "Used for internal wiring of intercoms, telephones, control circuits, and medical equipment.",
+        "specs": {
+          "Standard": "UL–Std. 758; UL Style 2576, 2598",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "1500V",
+          "Temperature Range": "-20°C to +80°C",
+          "Bending Radius": "Approx. 15× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain copper, fine wire AWG 24–16.",
+          "Insulation": "Special PVC per UL–Std. 1581, Table 50.182 and 50.183.",
+          "Sheath": "PVC outer jacket, black or grey."
+        },
+        "properties": ["PVC self–extinguishing and flame retardant VW-1, FT1."]
+      },
+      {
+        "product_name": "UL 3289 / 3321 / 3173 / 3271 / 3344 XLPE Cable",
+        "page_url": "https://www.rrkabel.com/products/ul-3289-3321-3173-3271-3344-xlpe-cable/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-23-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-23-1.svg",
+        "title": "RR Kabel UL 3289/3321/3173/3271/3344 XLPE Cable",
+        "description": "These high-temperature XLPE cables offer excellent resistance to abrasion, deformation, and chemical attack, suitable for appliance wiring and Class B IEEE 130°C motor leads.",
+        "application": "Used in appliances, transformers, electrical heating, motors, and cooking equipment. Also serves as an economical replacement for silicone or glass braid insulated wire.",
+        "specs": {
+          "Standard": "UL–Std. 758; CSA No. 22.2 210 and 127",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "5–7.5kV depending on AWG",
+          "Temperature Range": "Flexible -5°C to +150°C, Fixed -50°C to +150°C",
+          "Bending Radius": "Approx. 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper.",
+          "Insulation": "XLPE per UL–Std. 1581 Table 50.232."
+        },
+        "properties": [
+          "Abrasion and chemical resistant.",
+          "PVC self–extinguishing and flame retardant FT2."
+        ]
+      },
+      {
+        "product_name": "UL 2586",
+        "page_url": "https://www.rrkabel.com/products/ul-2586/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-24-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-24-1.svg",
+        "title": "RR Kabel UL 2586 Flexible Cable",
+        "description": "Designed for CNC machines, control systems, and automation applications, UL 2586 offers durable, flame-retardant PVC construction for heavy-duty industrial environments.",
+        "application": "Used in CNC, machine tools, bottling equipment, and data processing equipment connections.",
+        "specs": {
+          "Standard": "UL–758 UL 2586",
+          "Nominal Voltage": "1000V AC",
+          "Test Voltage": "1500V",
+          "Temperature Range": "-30°C to +150°C",
+          "Bending Radius": "12× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain copper, fine wire AWG 24–16.",
+          "Insulation": "Special PVC per UL–Std. 1581, Table 50.182 and 50.183.",
+          "Sheath": "PVC outer jacket, black or grey."
+        },
+        "properties": [
+          "PVC self–extinguishing and flame retardant FT1, FT2.",
+          "Available in shielded, braided, or hybrid variants."
+        ]
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "CCTV Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "CCTV Camera Cable",
+        "page_url": "https://www.rrkabel.com/products/cctv-camera-cable/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-3.svg",
+        "title": "RR Kabel CCTV Camera Cable",
+        "description": "RR Kabel CCTV Camera Cables are designed to deliver high-quality video transmission with minimal distortion and signal loss, making them ideal for security and surveillance systems. Available in 4+1 and 3+1 variants, these cables ensure reliable signal performance and power delivery for CCTV installations.",
+        "application": "Specially designed for CCTV systems to transmit complete video frequency signals for security and surveillance. Ideal for residential, commercial, and industrial monitoring setups. Offered in 4+1 and 3+1 configurations for camera and power integration.",
+        "properties": [
+          "Optimized for high-quality video signal transmission.",
+          "Dense tinned copper screening eliminates EMI/RFI interference.",
+          "Reduces DC resistance for efficient power transmission.",
+          "Flexible construction ensures better bending and durability."
+        ],
+        "cable_construction": {
+          "Screened Core for Video Signal": {
+            "Conductor": "Flexible fine wires of tinned electrolytic grade copper.",
+            "Insulation": "High dielectric strength and low capacitance insulation.",
+            "Screen": "Annealed tinned copper braid with approx. 85% coverage.",
+            "Sheath": "Black-colored PVC."
+          },
+          "Power Cores": {
+            "Conductor": "Solid electrolytic grade annealed plain copper, 0.5 mm.",
+            "Insulation": "High-density polyethylene (HDPE).",
+            "Sheath": "PVC.",
+            "Cable Colour": "White."
+          }
+        },
+        "variants": ["4+1 CCTV Cable", "3+1 CCTV Cable"],
+        "price": ""
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "Housewire",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "FIREX LSOH-EBXL Cable",
+        "page_url": "https://www.rrkabel.com/products/firex-lsoh-ebxl/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/06/firex-ls0h-new.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/06/firex-ls0h-new-12.svg",
+        "title": "RR Kabel FIREX LSOH-EBXL Cable – Halogen Free, Flame Retardant & Durable",
+        "description": "FIREX LSOH-EBXL cables are designed for critical circuits in environments where enhanced fire safety, low smoke, and zero halogen emissions are essential. Suitable for airports, hospitals, hotels, malls, and other high-traffic infrastructures.",
+        "application": "Critical circuits in high-traffic public and commercial spaces such as airports, auditoriums, hospitals, hotels, schools, malls, and retail outlets.",
+        "statutory_requirements": "The Central Electricity Authority (CEA) Regulation 2023 has made it mandatory to use Halogen Free Flame Retardant cables in public infrastructures (airports, hospitals, hotels) irrespective of height.",
+        "specs": {
+          "Approvals": "IS 17048 marked, FIA/TAC",
+          "Cable Code": "XZ",
+          "Voltage Grade": "Up to and including 1100V",
+          "Conductor": "Strands of electrolytic annealed plain copper, multi-drawn for uniformity of resistance, dimension, and flexibility",
+          "Insulation": "E-Beam Crosslinked HFI-XL 90 Halogen Free Flame Retardant (HFFR)",
+          "Colours": "Green, Black, Red, Yellow, Blue, Grey, White",
+          "Marking": "The cables are marked 'FIREX LSOH-EBXL'",
+          "Packing": "90 meter coils packed in protective cartons"
+        },
+        "properties": [
+          "Does not melt up to 900°C",
+          "Temperature range: -25°C to +110°C",
+          "Max short circuit temperature rating: 300°C",
+          "Chlorine Free: Non-toxic & Non-corrosive",
+          "Negligible smoke emission",
+          "Excellent water resistance",
+          "Abrasion resistant",
+          "Weather resistant",
+          "Anti-Rodent & Anti-Termite",
+          "Extended service life",
+          "Trapped fire victims not suffocated due to low smoke",
+          "Self-extinguishing and flame retardant (IS 10810P – 61)"
+        ],
+        "price": ""
+      },
+      {
+        "product_name": "SUPEREX GREEN HR + FR Cable",
+        "page_url": "https://www.rrkabel.com/products/superex-green-hr-fr/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2025/08/wire-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2025/08/Cross-Section-1-1.png",
+        "title": "RR Kabel SUPEREX GREEN HR + FR Cable – Heat Resistant & Flame Retardant",
+        "description": "Superex Green HR+FR cable is India’s 1st REACH and RoHS compliant cable. With heat resistant and flame retardant insulation, it ensures mechanical strength, thermal endurance, and fire safety for fixed wiring in residential and commercial spaces.",
+        "application": "Fixed wiring installations where enhanced mechanical strength, thermal endurance, and fire safety are critical.",
+        "specs": {
+          "Approvals": "IS 694 marked, FIA/TAC",
+          "Voltage Grade": "Up to and including 1100V",
+          "Conductor": "Thin strands of electrolytic copper are multi-drawn for uniformity of resistance, dimension, and flexibility",
+          "Insulation": "High-grade Heat Resistant and Flame Retardant (HR FR) PVC insulation",
+          "Insulation Conformity": "IS 5831, Type C – HR 85°C + FR",
+          "Colours": "Red, yellow, blue, black, green, grey & white",
+          "Marking": "The cables are printed with marking of 'SUPEREX GREEN'",
+          "Packing": "90 meter coil is packed in protective cartons"
+        },
+        "properties": [],
+        "price": ""
+      },
+      {
+        "product_name": "FLAMEX HR + FR Cable",
+        "page_url": "https://www.rrkabel.com/products/flamex-hr-fr/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2025/08/Flamex-HR-FR-2.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2025/08/Flamex-HR-FR.jpg",
+        "title": "RR Kabel FLAMEX HR + FR Cable – Heat Resistant & Flame Retardant",
+        "description": "Flamex HR+FR is India’s 1st REACH and RoHS compliant cable designed for flexible wiring in homes, offices, and commercial spaces. Offers durability and fire-safe performance under elevated temperatures.",
+        "application": "Flexible wiring in homes, offices, and commercial spaces where bending radius and fire-safe performance matter.",
+        "specs": {
+          "Approvals": "IS 694 marked, FIA/TAC",
+          "Voltage Grade": "Up to and including 1100V",
+          "Conductor": "Thin strands of electrolytic copper are multi-drawn for uniformity of resistance, dimension and flexibility",
+          "Insulation": "High-grade Heat Resistant and Flame Retardant (HR FR) PVC insulation",
+          "Insulation Conformity": "IS 5831 Type C – HR 85°C + FR",
+          "Colours": "Red, yellow, blue, black, green, grey & white",
+          "Marking": "The cables are printed with the marking ‘FLAMEX HR+FR’",
+          "Packing": "90 meter coils packed in protective cartons"
+        },
+        "properties": [],
+        "price": ""
+      },
+      {
+        "product_name": "UNILAY HR FR Cable",
+        "page_url": "https://www.rrkabel.com/products/unilay-hr-fr/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-1-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-Section-1.svg",
+        "title": "RR Kabel UNILAY HR FR Cable – Heat Resistant & Flame Retardant",
+        "description": "Unilay HR FR is a heat resistant and flame retardant REACH compliant cable with Unilay conductor technology. It ensures no loose contacts, no broken ends, no sparking, and no overheating.",
+        "application": "Conduit and fixed, protected installation; ideal for high density wiring.",
+        "specs": {
+          "Approvals": "IS 694 marked, FIA/TAC",
+          "Voltage Grade": "Up to and including 1100V",
+          "Conductor": "Thin strands of electrolytic copper multi-drawn; uni-laid and compacted for circularity",
+          "Conductor Speciality": "Strands do not get cut when stripping; perfect contact at pins, terminals and sockets",
+          "Insulation": "Specially formulated heat resistant & flame retardant PVC insulation",
+          "Insulation Conformity": "IS 5831, Type C – HR 85°C + FR"
+        },
+        "properties": [],
+        "price": ""
+      },
+      {
+        "product_name": "Q1 Flame Retardant Cable",
+        "page_url": "https://www.rrkabel.com/products/q1-flame-retardant/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2025/08/q1-wire-preview-img.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2025/08/Q1-FR-CROSS.png",
+        "title": "RR Kabel Q1 Flame Retardant Cable – Lead & Mercury Free, Super Flexible & Safe",
+        "description": "Q1 FR is a flame retardant, lead and mercury free cable designed for safe wiring where high flexibility and fire resistance are critical.",
+        "application": "Wiring for lighting circuits, switches, and outlets where flexibility and flame resistance are required.",
+        "specs": {
+          "Approvals": "IS 694 marked, FIA/TAC",
+          "Voltage Grade": "Up to and including 1100 V",
+          "Conductor": "Thin strands of electrolytic copper are multi-drawn",
+          "Insulation": "Specially formulated FR (Flame Retardant) PVC insulation with anti-rodent and anti-termite properties",
+          "Insulation Conformity": "IS 5831, Type D FR 70°C",
+          "Colours": "Red, yellow, blue, black, green, grey & white",
+          "Marking": "The cables are printed with marking of 'Q1 FR'",
+          "Packing": "90 meter coil is packed in protective cartons"
+        },
+        "properties": [
+          "Self extinguishing and Flame Retardant",
+          "Temperature Range: -15°C to +70°C",
+          "Excellent flexibility and ease of installation",
+          "Anti-Rodent & Anti-Termite",
+          "100% Electrolytic Grade Pure Copper",
+          "Lead and Mercury Free"
+        ],
+        "price": ""
+      },
+      {
+        "product_name": "SUPEREX FR Cable",
+        "page_url": "https://www.rrkabel.com/products/superex-fr/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/wire-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-Section-1-1.svg",
+        "title": "RR Kabel SUPEREX FR Cable – Flame Retardant & Safe Wiring Solution",
+        "description": "Superex FR is India’s 1st REACH and RoHS compliant flame retardant cable, designed for safety in residential and commercial infrastructure.",
+        "application": "Wiring in residential and commercial infrastructure where fire and electrical safety are important.",
+        "specs": {
+          "Approvals": "IS 694 marked, FIA/TAC",
+          "Voltage Grade": "Up to and including 1100V",
+          "Conductor": "Thin strands of electrolytic copper multi-drawn and twisted for circularity",
+          "Insulation": "Specially formulated flame retardant PVC insulation",
+          "Insulation Conformity": "IS 5831, Type A/D FR 70°C",
+          "Colours": "Red, yellow, blue, black, green, grey & white",
+          "Marking": "The cables are printed with marking of ‘SUPEREX FR’",
+          "Packing": "90 mtr. coil is packed in protective cartons. Project packing of 180 mtr. also available."
+        },
+        "properties": [],
+        "price": ""
+      },
+      {
+        "product_name": "Halogen-Free H07Z-R-6491B Cable",
+        "page_url": "https://www.rrkabel.com/products/halogen-free-h07z-r-6491b/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire_1-2.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-6.svg",
+        "title": "RR Kabel Halogen-Free H07Z-R-6491B – LSZH Cable for Safer Installations",
+        "description": "Halogen-Free H07Z-R-6491B cable is designed for conduit wiring where fire, smoke, and toxic fumes pose risks. With LSZH insulation and compliance to international standards, it ensures enhanced safety and eco-friendly performance.",
+        "application": "Conduit wiring where fire, smoke and toxic fumes create potential threat.",
+        "standard": "BS EN 50525-3-41",
+        "specs": {
+          "Voltage Rating": "U₀ / U – 450 / 750V",
+          "Harmonised Designation": "1.5 mm² to 630 mm² stranded class 2 – H07Z-R",
+          "Temperature Range": "-15°C to 90°C",
+          "Minimum Bending Radius": "Up to 10 mm²: 3 × Overall Diameter. 16 & 25 mm²: 4 × Overall Diameter. Above 25 mm²: 5 × Overall Diameter."
+        },
+        "cable_construction": {
+          "Conductor": "Plain annealed copper conductor 1.5 mm² to 630 mm² stranded Cl. 2 complying with EN 60228",
+          "Insulation": "LSZH (Low Smoke Zero Halogen) Type EI5 according to BS EN 50363-5"
+        },
+        "price": ""
+      },
+      {
+        "product_name": "PVC Insulated Building Wire (H07V-R) - 6491X",
+        "page_url": "https://www.rrkabel.com/products/pvc-insulated-building-wire-h07v-r-6491x/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-2-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-1.svg",
+        "title": "RR Kabel PVC Insulated Building Wire (H07V-R) - 6491X – Reliable Wiring for Lighting & Power Circuits",
+        "description": "H07V-R 6491X PVC insulated building wire is designed for power and lighting circuits, suitable for semi-exposed conduits, embedded conduits, and closed installation ducts.",
+        "application": "Power and lighting circuits and building wiring suitable for semi flush exposed conduits, embedded conduits and in closed installation ducts.",
+        "standard": "BS EN 50525-2-31. SABS 1507-2, SS 358 Part-3.",
+        "specs": {
+          "Voltage Rating": "U₀ / U – 450 / 750V",
+          "Harmonised Designation": "1.5 mm² to 630 mm² stranded class 2 – H07V-R",
+          "Temperature Range": "-15°C to 70°C",
+          "Minimum Bending Radius": "Up to 10 mm²: 3 × Overall Diameter. 16 & 25 mm²: 4 × Overall Diameter. Above 25 mm²: 5 × Overall Diameter."
+        },
+        "cable_construction": {
+          "Conductor": "Plain annealed copper conductor 1.5 mm² to 630 mm² stranded class 2 complying with EN 60228, HD 383, IEC 60228",
+          "Insulation": "PVC (Polyvinyl Chloride) compound type TI 1 complying with EN 50363-3, HD 21.1, IEC 60227-1, SABS 1411-2"
+        },
+        "price": ""
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "LAN Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "RATNALAN CAT 5E/6",
+        "page_url": "https://www.rrkabel.com/products/ratnalan-cat-5e-6/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-2-2.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-2.svg",
+        "title": "RR Kabel RATNALAN CAT 5E/6",
+        "description": "RR Kabel RATNALAN CAT 5E/6 cables are high-performance LAN cables designed for modern data and computer network systems. They serve as the backbone of modern data transmission, supporting high-speed internet and network performance in industrial, commercial, and residential setups.",
+        "application": "LAN cables are used for computer network systems and data transmission in residential, commercial, and industrial infrastructures. They provide high-speed connectivity for devices, ensuring stable and efficient network communication.",
+        "specs": {
+          "Performance": "RATNALAN enhanced CAT 6 UTP supports 100+ Mbps data rates. RATNALAN CAT 5e UTP is tested to exceed EN 50173, ISO/IEC 11801, and TIA/EIA 568-B.1/B.2 standards."
+        },
+        "cable_construction": {
+          "Conductor": "Solid bare copper.",
+          "Insulation": "High-density polyethylene.",
+          "Pair": "2 insulated conductors twisted together.",
+          "Outer Jacket": "FR PVC.",
+          "Colour Code": {
+            "1 Pair": "White – orange stripe and orange",
+            "2 Pair": "White – green stripe and green",
+            "3 Pair": "White – blue stripe and blue"
+          }
+        },
+        "properties": [
+          "High data transmission reliability for industrial and commercial use.",
+          "Flame retardant FR PVC outer jacket for enhanced safety.",
+          "Excellent signal integrity and low attenuation.",
+          "Durable and long-lasting performance for structured cabling systems."
+        ],
+        "price": ""
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "Solar Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "Solar Cable – IS 17293",
+        "page_url": "https://www.rrkabel.com/products/solar-cable-is-17293/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2024/05/17293.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2024/05/solar-cable-is-17293.svg",
+        "title": "RR Kabel Solar Cable – IS 17293",
+        "description": "RR Kabel Solar Cable – IS 17293 is a DC photovoltaic (PV) cable designed for interconnection between solar panels, string boxes, and inverters. It offers superior UV, ozone, and weather resistance, making it ideal for rooftop, commercial, and agricultural solar installations. The cable ensures high electrical efficiency, long life, and compliance with IS 17293 and IEC 62930 standards.",
+        "application": "Used for interconnection between photovoltaic (PV) elements such as panels, string boxes, and inverters in solar power systems. Suitable for rooftop, commercial, and agricultural installations in both indoor and outdoor environments, including hazardous or explosion-prone areas.",
+        "specs": {
+          "Standard": "IS 17293:2020; RR Kabel Solar Cable marked with IS 17293 complies with IEC 62930 and exceeds EN 50618 requirements.",
+          "Voltage Rating": "AC 1.0/1.0 kV; DC 1.8 kV",
+          "Max. PV-System Voltage": "Up to 2.0 kV (possible)",
+          "Max. Permissible Operating Voltage in AC Systems": "0.71/1.2 kV",
+          "Max. Permissible Operating Voltage in DC Systems": "0.9/1.8 kV",
+          "Short Circuit Temperature": "250°C (for up to 5 seconds)",
+          "Operating Temperature Range": "-40°C to +90°C",
+          "Minimum Bending Radius": "Fixed installation approx. 4 × cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Fine wire bunch of annealed tinned copper conductors according to IS 8130.",
+          "Insulation": "UV-resistant crosslinked Halogen-Free Flame Retardant core insulation.",
+          "Sheath": "UV-resistant crosslinked Halogen-Free Flame Retardant sheath over insulation.",
+          "Color": "Black and Red (or as required)."
+        },
+        "properties": [
+          "Ultraviolet (UV) resistant",
+          "Weather (ozone) resistant",
+          "Long-term heat resistant (tested for 1000 hours at 90°C and 85% humidity)",
+          "Non-toxic and non-corrosive",
+          "Excellent insulation & transparency",
+          "Acid and alkali resistant",
+          "Ammonia resistant",
+          "Self-extinguishing and flame retardant as per IS 10810 Part 53 & 62"
+        ],
+        "color_code": "Available in Black (02), Red (03), and Natural (xx suffix).",
+        "price": ""
+      },
+      {
+        "product_name": "Solar Cable – EN 50618",
+        "page_url": "https://www.rrkabel.com/products/solar-cable-en-50618/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-71.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-71.svg",
+        "title": "RR Kabel Solar Cable – EN 50618",
+        "description": "RR Kabel Solar Cable – EN 50618 is designed for photovoltaic (PV) systems used in solar power generation. It ensures excellent resistance to heat, UV radiation, and environmental stress while offering long-term performance in both fixed and flexible installations, suitable for residential, commercial, and industrial solar applications.",
+        "application": "Used in photovoltaic power supply systems for interconnections between solar panels and other electrical components. Suitable for indoor, outdoor, fixed, or movable installation, and safe for use in hazardous or explosion-prone environments such as agriculture and industry.",
+        "specs": {
+          "Standard": "EN 50618:2015",
+          "Voltage Rating": "AC 0.6 / 1.0 kV",
+          "Max. PV-System Voltage": "Up to 2.0 kV possible",
+          "Max. Permissible Operating Voltage in AC Systems": "0.7 / 1.2 kV",
+          "Max. Permissible Operating Voltage in DC Systems": "0.9 / 1.8 kV",
+          "Test Voltage": "AC 6.5 kV / DC 15 kV (15 min)",
+          "Operating Temperature Range": "-40°C to +90°C",
+          "Short Circuit Temperature": "250°C (for up to 5 seconds)",
+          "Max. Permissible Temperature of the Conductor": "120°C (for 2–3 years), 90°C permanent (30 years)"
+        },
+        "cable_construction": {
+          "Conductor": "Fine wire tinned copper conductor according to BS EN 60228:2005 Class 5.",
+          "Insulation": "Halogen-free, cross-linked insulation compound for core insulation.",
+          "Sheath": "Halogen-free, flame retardant, cross-linked compound over insulation.",
+          "Color": "Red, Black, and Black with Red stripe."
+        },
+        "properties": [
+          "Resistant to UV, ozone, ammonia, acids, and alkalis.",
+          "Tested for 20,000 hours of heat exposure at 90°C and 85% humidity.",
+          "Flame retardant and halogen-free.",
+          "Low smoke emission and non-corrosive in case of fire.",
+          "High flexibility and mechanical strength.",
+          "Complies with EN 50618 and IEC 60216 standards."
+        ],
+        "price": ""
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "Communication Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "RATNACOM",
+        "page_url": "https://www.rrkabel.com/products/ratnacom/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-1-2.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-1-1.svg",
+        "title": "RR Kabel RATNACOM",
+        "description": "RR Kabel RATNACOM cables are designed for efficient and reliable communication, offering low attenuation and minimized cross talk. Ideal for analog and digital signal transmission, they ensure superior performance in telecommunication, data recording, and alarm systems.",
+        "application": "Used for switchboard and telephone wiring in residential and commercial infrastructure. Suitable for transmitting analog and digital signals in faxes, modems, alarm annunciators, data recording/acquisition systems, and other communication devices.",
+        "specs": {
+          "Specifications": "ITD-S/WS 113C",
+          "Conductor": "Solid electrolytic grade copper.",
+          "Insulation": "Premium quality grade polyethylene extruded to ensure low attenuation.",
+          "Twisted Pairs": "Cores are twisted with optimal lay and bundled to minimize cross talk.",
+          "Jacket": "Specially formulated flame retardant (FR) PVC.",
+          "Marking": "Cables are marked ‘RATNACOM FR’.",
+          "Packing": "90 mtr. length in polybag. Higher lengths available on request."
+        },
+        "properties": [
+          "Low attenuation for efficient signal transmission.",
+          "Minimized cross talk for clearer communication.",
+          "Flame retardant outer jacket ensures higher safety.",
+          "Reliable performance for analog and digital communication systems."
+        ],
+        "price": ""
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "Welding Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "WELDEX-SI (Single Insulated)",
+        "page_url": "https://www.rrkabel.com/products/weldex-si-single-insulated/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-75.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-74.svg",
+        "title": "RR Kabel WELDEX-SI (Single Insulated)",
+        "description": "RR Kabel WELDEX-SI is a high-performance single insulated welding cable designed for transmitting high currents between electric welding machines and welding tools. Its flexibility, flame resistance, and durability make it ideal for rugged industrial environments, including manufacturing, shipbuilding, and automotive applications.",
+        "application": "Designed for the transmission of high currents from electric welding machines to welding tools. Suitable for flexible use in rugged environments, on assembly lines, conveyors, machine tools, and motor car manufacturing, as well as for spot welding applications.",
+        "specs": {
+          "Voltage Rating": "450V a.c.r.m.s.",
+          "Test Voltage": "3000V",
+          "Temperature Range": "-30°C to +70°C",
+          "Minimum Bending Radius": "5 × cable diameter"
+        },
+        "cable_construction": {
+          "Conductor": "Super fine strands of annealed bare copper as per EN 60228, Class 6.",
+          "Insulation": "Elastomeric PVC insulation.",
+          "Optional": "Available with TPE insulation rated up to 105°C."
+        },
+        "properties": [
+          "Heavy-duty welding cable resistant to flame, oil, abrasion, and tear.",
+          "Suitable for use in open air, dry, and damp interiors.",
+          "Highly flexible — prevents knotting and conductor breakage.",
+          "Ensures long operational life even under continuous bending and stress."
+        ],
+        "price": ""
+      },
+      {
+        "product_name": "WELDEX-DI (Double Insulated)",
+        "page_url": "https://www.rrkabel.com/products/weldex-di-double-insulated/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wre-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-75.svg",
+        "title": "RR Kabel WELDEX-DI (Double Insulated)",
+        "description": "RR Kabel WELDEX-DI is a double-insulated welding cable designed for welding machines that require high current carrying capacity and reliability. It provides superior insulation and flexibility for secondary voltage transmission in welding power sources. The cable offers strong resistance to abrasion, oil, and flame, ensuring long-lasting performance in industrial environments.",
+        "application": "Double insulated cable for welding machines providing higher current carrying capacity. Used to conduct secondary voltage in secondary side connection to MMA welding power sources. Suitable for use in open air, dry or damp interiors.",
+        "specs": {
+          "Voltage Rating": "450V a.c.r.m.s.",
+          "Test Voltage": "3000V",
+          "Temperature Range": "-30°C to +70°C",
+          "Minimum Bending Radius": "5 × cable diameter"
+        },
+        "cable_construction": {
+          "Conductor": "Super fine strands of annealed bare copper as per EN 60228, Class 6.",
+          "Insulation": "Elastomeric PVC composite covering.",
+          "Sheath": "Elastomeric PVC; also available with TPE composite covering rated up to 105°C."
+        },
+        "properties": [
+          "Resistant to flame, oil, abrasion, and tear.",
+          "Suitable for open air use, dry or damp interiors.",
+          "High flexibility prevents knot formation and internal conductor breakage.",
+          "Provides superior durability and longevity in welding environments."
+        ],
+        "price": ""
+      }
+    ]
+  },
+  {
+    "parent_category": "Cables & Wires",
+    "category": "Flexible Cable",
+    "brand": "RR Kabel",
+    "products": [
+      {
+        "product_name": "UL 1015",
+        "page_url": "https://www.rrkabel.com/products/ul-1015/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-15-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-15-3.svg",
+        "title": "RR Kabel UL 1015 Flexible Cable",
+        "description": "UL 1015 cables are designed for internal wiring of panels and electrical equipment, offering superior flexibility and flame-retardant performance for control and instrumentation systems.",
+        "application": "Used for internal wiring of panels and electrical equipment, as well as for connection wires in machines, flexible pipes, and transformers.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "6kV (AWG 18–16), 7.5kV (≥AWG 8)",
+          "Temperature Range": "Flexing -5°C to +105°C, Fixed installation -20°C to +105°C",
+          "Temperature at Conductor": "Max. +105°C",
+          "Bending Radius": "Flexing 10× cable Ø, Fixed installation 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation according to UL–Std. 1581, Class 43 Tab. 50.182.",
+          "Properties": "Heat and damp resistant PVC."
+        },
+        "properties": [
+          "Conditionally resistant to oils, solvents, acids and dyes.",
+          "PVC self–extinguishing and flame retardant (UL VW-1 and CSA FT1/FT2)."
+        ]
+      },
+      {
+        "product_name": "UL 1007",
+        "page_url": "https://www.rrkabel.com/products/ul-1007/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-17-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-17-3.svg",
+        "title": "RR Kabel UL 1007 Flexible Cable",
+        "description": "RR Kabel UL 1007 cables provide reliable internal wiring solutions for switchboards and electronic equipment, offering flexibility, flame retardance, and chemical resistance.",
+        "application": "Used for internal wiring of switchboards, electronic, and electrical equipment.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "2kV",
+          "Temperature Range": "Flexible -5°C to +80°C, Fixed installation -20°C to +80°C",
+          "Bending Radius": "Flexing 10× cable Ø, Fixed installation 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation per UL–Std. 1581, Class 43 Tab. 50.182.",
+          "Properties": "Heat and damp resistant PVC."
+        },
+        "properties": [
+          "Oil, acid, and solvent resistant.",
+          "PVC self–extinguishing and flame retardant per UL VW-1 and CSA FT1/FT2."
+        ]
+      },
+      {
+        "product_name": "UL 1011",
+        "page_url": "https://www.rrkabel.com/products/ul-1011/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-18-3.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-18-3.svg",
+        "title": "RR Kabel UL 1011 Flexible Cable",
+        "description": "UL 1011 cables are flexible, heat-resistant, and flame-retardant, designed for internal wiring of electrical and electronic control equipment.",
+        "application": "Ideal for internal wiring of switchboards, electronic and electrical equipment, household devices, and control desks.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "2kV",
+          "Temperature Range": "Flexible -5°C to +105°C, Fixed installation -20°C to +105°C",
+          "Bending Radius": "Flexing 10× cable Ø, Fixed installation 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation per UL–Std. 1581, Class 43 Tab. 50.182.",
+          "Properties": "Heat and damp resistant PVC."
+        },
+        "properties": [
+          "Conditionally resistant to oils, solvents, acids, and dyes.",
+          "PVC self–extinguishing and flame retardant (UL VW-1 and CSA FT1/FT2)."
+        ]
+      },
+      {
+        "product_name": "UL 1275",
+        "page_url": "https://www.rrkabel.com/products/ul-1275/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-19-2.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-19-2.svg",
+        "title": "RR Kabel UL 1275 Flexible Cable",
+        "description": "UL 1275 heavy-wall PVC-insulated cables are ideal for internal wiring of refrigeration and electrical equipment, providing durability and flame-retardant performance.",
+        "application": "Used for internal wiring on refrigeration equipment and as hook-up wire in electrical systems.",
+        "specs": {
+          "Standard": "UL–Std. 758, CSA C22.2 No. 210",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "6kV (AWG 18–16), 7.5kV (≥AWG 8)",
+          "Temperature Range": "-20°C to +105°C",
+          "Bending Radius": "5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper conductor.",
+          "Insulation": "PVC core insulation Type TW, QMTT2 heat and damp resistant."
+        },
+        "properties": [
+          "Conditionally resistant to oils.",
+          "PVC self–extinguishing and flame retardant (UL VW-1, CSA FT1/FT2)."
+        ]
+      },
+      {
+        "product_name": "UL 2587",
+        "page_url": "https://www.rrkabel.com/products/ul-2587/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-20-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-20-1.svg",
+        "title": "RR Kabel UL 2587 Flexible Cable",
+        "description": "RR Kabel UL 2587 cables are designed for industrial automation, machine tools, and control panels, providing high flexibility, mechanical durability, and flame retardance.",
+        "application": "Used in machine tools, control systems, connection between control panels and machinery, and industrial automation systems.",
+        "specs": {
+          "Standard": "UL–Std. 758; UL AWM Style 2587",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "3000V",
+          "Temperature Range": "Flexing -5°C to +90°C, Fixed installation -20°C to +90°C",
+          "Bending Radius": "Approx. 7.5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Bare copper fine wire, 0.5–35 sq. mm (AWG equivalent).",
+          "Insulation": "Special PVC insulation per UL 1581 Class 43.",
+          "Sheath": "Special PVC outer sheath, color grey (RAL 7001)."
+        },
+        "properties": [
+          "Resistant to oil, moisture, and coolant.",
+          "Easy stripping due to adequate talc coating."
+        ]
+      },
+      {
+        "product_name": "UL 2464",
+        "page_url": "https://www.rrkabel.com/products/ul-2464/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-21-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-21-1.svg",
+        "title": "RR Kabel UL 2464 Flexible Cable",
+        "description": "UL 2464 control cables are engineered for data transmission and control in industrial plants and automation systems, offering reliability and mechanical robustness.",
+        "application": "Used as command, measuring, and control cable in conveyor systems, air conditioning, and production lines.",
+        "specs": {
+          "Standard": "UL–Std. 758; UL Style 2464",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "1500V",
+          "Breakdown Voltage": "3000V",
+          "Temperature Range": "Flexible -10°C to +80°C, Fixed installation -20°C to +80°C",
+          "Bending Radius": "Approx. 15× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain copper, fine wire AWG 24–16.",
+          "Insulation": "PVC per UL–Std. 1581, Table 50.182 and 50.183.",
+          "Sheath": "Special PVC outer jacket class 43, black or grey."
+        },
+        "properties": ["PVC self–extinguishing and flame retardant VW-1, FT1."]
+      },
+      {
+        "product_name": "UL 2576 / 2598",
+        "page_url": "https://www.rrkabel.com/products/ul-2576-2598/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-22-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-22-1.svg",
+        "title": "RR Kabel UL 2576 / 2598 Flexible Cable",
+        "description": "RR Kabel UL 2576/2598 cables are designed for intercoms, telephones, public address systems, and medical equipment, combining flexibility with flame retardance.",
+        "application": "Used for internal wiring of intercoms, telephones, control circuits, and medical equipment.",
+        "specs": {
+          "Standard": "UL–Std. 758; UL Style 2576, 2598",
+          "Nominal Voltage": "300V",
+          "Test Voltage": "1500V",
+          "Temperature Range": "-20°C to +80°C",
+          "Bending Radius": "Approx. 15× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain copper, fine wire AWG 24–16.",
+          "Insulation": "Special PVC per UL–Std. 1581, Table 50.182 and 50.183.",
+          "Sheath": "PVC outer jacket, black or grey."
+        },
+        "properties": ["PVC self–extinguishing and flame retardant VW-1, FT1."]
+      },
+      {
+        "product_name": "UL 3289 / 3321 / 3173 / 3271 / 3344 XLPE Cable",
+        "page_url": "https://www.rrkabel.com/products/ul-3289-3321-3173-3271-3344-xlpe-cable/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-23-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-23-1.svg",
+        "title": "RR Kabel UL 3289/3321/3173/3271/3344 XLPE Cable",
+        "description": "These high-temperature XLPE cables offer excellent resistance to abrasion, deformation, and chemical attack, suitable for appliance wiring and Class B IEEE 130°C motor leads.",
+        "application": "Used in appliances, transformers, electrical heating, motors, and cooking equipment. Also serves as an economical replacement for silicone or glass braid insulated wire.",
+        "specs": {
+          "Standard": "UL–Std. 758; CSA No. 22.2 210 and 127",
+          "Nominal Voltage": "600V",
+          "Test Voltage": "5–7.5kV depending on AWG",
+          "Temperature Range": "Flexible -5°C to +150°C, Fixed -50°C to +150°C",
+          "Bending Radius": "Approx. 5× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain or tinned stranded copper.",
+          "Insulation": "XLPE per UL–Std. 1581 Table 50.232."
+        },
+        "properties": [
+          "Abrasion and chemical resistant.",
+          "PVC self–extinguishing and flame retardant FT2."
+        ]
+      },
+      {
+        "product_name": "UL 2586",
+        "page_url": "https://www.rrkabel.com/products/ul-2586/",
+        "image_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Wire-24-1.png",
+        "cross_section_url": "https://www.rrkabel.com/wp-content/uploads/2023/07/Cross-24-1.svg",
+        "title": "RR Kabel UL 2586 Flexible Cable",
+        "description": "Designed for CNC machines, control systems, and automation applications, UL 2586 offers durable, flame-retardant PVC construction for heavy-duty industrial environments.",
+        "application": "Used in CNC, machine tools, bottling equipment, and data processing equipment connections.",
+        "specs": {
+          "Standard": "UL–758 UL 2586",
+          "Nominal Voltage": "1000V AC",
+          "Test Voltage": "1500V",
+          "Temperature Range": "-30°C to +150°C",
+          "Bending Radius": "12× cable Ø"
+        },
+        "cable_construction": {
+          "Conductor": "Annealed plain copper, fine wire AWG 24–16.",
+          "Insulation": "Special PVC per UL–Std. 1581, Table 50.182 and 50.183.",
+          "Sheath": "PVC outer jacket, black or grey."
+        },
+        "properties": [
+          "PVC self–extinguishing and flame retardant FT1, FT2.",
+          "Available in shielded, braided, or hybrid variants."
+        ]
+      }
+    ]
+  }
+]
