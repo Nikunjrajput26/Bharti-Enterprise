@@ -211,7 +211,7 @@ export default function DEMOProductsPage({
         setSelectedFilters={setSelectedFilters}
       /> */}
       <SidebarInset>
-        <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4 sticky top-30">
+        {/* <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4 sticky top-30">
           <SidebarTrigger className="-ml-1" />
           <Separator
             orientation="vertical"
@@ -241,7 +241,7 @@ export default function DEMOProductsPage({
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-        </header>
+        </header> */}
 
         <div className="flex flex-1 flex-col gap-4 p-4 mt-4">
           {isCategory && products.length > 0 ? (
@@ -300,13 +300,16 @@ export default function DEMOProductsPage({
                   return (
                     <Dialog key={p.product_name + index}>
                       <DialogTrigger asChild>
-                        <div className="group cursor-pointer bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                        <div
+                          className="group cursor-pointer bg-white rounded-lg border border-gray-200 overflow-hidden transition-transform duration-300 ease-out hover:-translate-y-1 hover:shadow-2xl relative"
+                          aria-hidden="false"
+                        >
                           <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden">
                             {p.image_url ? (
                               <img
                                 src={p.image_url}
                                 alt={p.product_name}
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                               />
                             ) : (
                               <div className="text-gray-300">
@@ -329,30 +332,96 @@ export default function DEMOProductsPage({
 
                           <div className="p-4">
                             <h3
-                              className="font-semibold text-sm mb-2 line-clamp-2 min-h-[2.5rem]"
+                              className="font-semibold text-sm mb-2 line-clamp-2 min-h-[2.5rem] transition-colors duration-200"
                               style={{ fontFamily: "Oswald, sans-serif" }}
                             >
-                              {p.product_name}
+                              {/* title turns logo-red on hover */}
+                              <span className="group-hover:text-[#E03131]">
+                                {p.product_name}
+                              </span>
                             </h3>
+
                             {typeof p.description === "string" &&
                               p.description.trim() && (
                                 <p className="text-xs text-muted-foreground line-clamp-2 mb-3">
                                   {p.description}
                                 </p>
                               )}
-                            <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
-                              {p.brand && (
-                                <span className="bg-gray-100 px-2 py-1 rounded">
-                                  {p.brand}
-                                </span>
+
+                            <div className="flex items-center justify-between gap-2 mb-3">
+                              
+
+                              {/* Buttons group (View + Enquiry) */}
+                              <div className="flex items-center gap-2">
+                                {/* View button (keeps default behavior of card click opening dialog) */}
+                                <button
+                                  type="button"
+                                  className="px-3 py-1.5 text-xs font-semibold bg-gray-100 hover:bg-gray-200 rounded transition-transform duration-200"
+                                  aria-label={`View ${p.product_name}`}
+                                >
+                                  View
+                                </button>
+
+                                {/* Enquiry button - stops dialog open and opens WhatsApp with message */}
+                                <button
+                                  type="button"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    e.nativeEvent.stopImmediatePropagation?.();
+
+                                    const productName = String(
+                                      p.product_name ?? ""
+                                    ).trim();
+                                    const categoryName = String(
+                                      p.category ??
+                                        p.category_name ??
+                                        p.parent_category ??
+                                        p.parent ??
+                                        ""
+                                    ).trim();
+
+                                    const messageParts: string[] = [];
+                                    if (categoryName)
+                                      messageParts.push(categoryName);
+                                    if (productName)
+                                      messageParts.push(productName);
+
+                                    const message = messageParts.length
+                                      ? `Hi, I'm interested in ${messageParts.join(
+                                          " — "
+                                        )}. Please share details.`
+                                      : `Hi, I'm interested in this product. Please share details.`;
+
+                                    const phone = "911234567890"; // replace with your number (country code + number, no +)
+                                    const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(
+                                      message
+                                    )}`;
+
+                                    window.open(
+                                      waUrl,
+                                      "_blank",
+                                      "noopener,noreferrer"
+                                    );
+                                  }}
+                                  className="px-3 py-1.5 text-xs font-semibold bg-[#E03131] text-white rounded transform transition-all duration-200 hover:-translate-y-0.5 hover:scale-105 hover:shadow-lg"
+                                  aria-label={`Enquire about ${p.product_name}`}
+                                >
+                                  Enquiry
+                                </button>
+                              </div>
+                            </div>
+
+                            {/* small metadata area (optional) */}
+                            <div className="text-xs text-muted-foreground">
+                              {p.sku && (
+                                <span className="mr-2">SKU: {p.sku}</span>
                               )}
-                              <span className="text-blue-600 font-medium">
-                                View Details →
-                              </span>
+                              {p.availability && <span>{p.availability}</span>}
                             </div>
                           </div>
                         </div>
                       </DialogTrigger>
+
                       <DialogContent className="w-[95vw] md:w-[90vw] max-w-6xl h-[85vh] md:h-[90vh] flex flex-col p-0">
                         <DialogHeader className="p-6 pb-4">
                           <DialogTitle
